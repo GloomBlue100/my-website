@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bean & Brew – Local café serving fresh coffee, food, and hosting community events.">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Bean & Brew – Book a Table</title>
+    </head>
+
+    <!-- Main Image -->
+    <body>
+        <div id="text-image" class="text-image">
+            <img src="images/front-coffee-shop.jpg" alt="Inside Bean & Brew café">
+        </div>
+
+    <div class="container">
+        
+        <!-- Header + Nav -->
+        <header>
+            <h1>Bean & Brew Book Table</h1>
+
+            <hr>
+
+            <h2>Navigation</h2>
+            <nav aria-label="Main Navigation">                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+
+        <!-- Introduction -->
+        <section id="intro1" class="intro1">
+            <h2>Welcome to Bean & Brew</h2>
+            <p>Join us for weekly live performances, creative workshops, tasting sessions, and special themed nights. Whether you’re here to unwind or discover something new, our events add a little extra flavour to your visit.</p>
+        </section>
+
+        <hr>
+
+        <!-- Book a Table -->
+        <div class="wrapper">
+
+            <h2>Book a Table</h2>
+
+            <form id="bookingForm">
+                <div class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                     
+                <div class="form-row">
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="noOfGuests">Number of Guests:</label>
+                    <select id="noOfGuests" name="noOfGuests" required>
+                        <option value="" disabled selected>Select...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+
+                <div class="form-buttons">       
+                    <input type="submit" id="bookTableBtn" value="Book Table">          
+                </div>
+            </form>
+        </div>
+
+        <hr>
+
+        <!-- Link Bar -->
+        <div id="link-bar" class="link-bar">
+            <a href="index.html">Home</a>
+            <a href="menu.html">View Menu</a>
+            <a href="events.html">Upcoming Events</a>
+            <a href="book.html">Book a Table</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 Bean & Brew Café – 123 Main Street, Glasgow</p>
+        </footer>
+
+        <!-- Script -->
+        <script src="js/scripts.js"></script>
+    </div>
+    </body>
+</html>
